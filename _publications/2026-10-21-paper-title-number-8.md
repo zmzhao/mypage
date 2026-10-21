@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Paper Title Number 8, with math $$E=mc^2$$"
 collection: publications
 category: conferences
 permalink: /publication/2025-06-08-paper-title-number-5
