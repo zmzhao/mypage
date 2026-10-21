@@ -13,7 +13,7 @@ title                    : "Dr. Zhiming Zhao / Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://zmzhao.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://zmzhao.github.io/mypage # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "About me"
   pronouns         : he/his # example: "she/her"  
-  bio              : "I am an associate professor and the chair of the Multiscale Network Systems (MNS) research group in the Informatics Institute (IvI) at UvA. I am the technical manager of the Virtual Lab and Innovation Center (VLIC) of LifeWatch ERIC, a European research infrastructure in ecology and biodiversity science."
+  bio              : "I am an associate professor and the chair of the [Multiscale Network Systems (MNS)] (https://mns-research.nl/)research group in the [Informatics Institute (IvI)](https://ivi.uva.nl/) at [University of Amsterdam](www.uva.nl). I am the technical manager of the [Virtual Lab and Innovation Center (VLIC)](https://www.lifewatch.eu/organisation-governance/vlab-innovation-centre/) of [LifeWatch ERIC](https://www.lifewatch.eu/), a European research infrastructure in ecology and biodiversity science."
   location         : "Science Park Amsterdam, the Netherlands"
   employer         : "University of Amsterdam"
   uri              : https://www.uva.nl # URL
