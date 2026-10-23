@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
+
 {% if site.author.googlescholar %}
 You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
 {% endif %}
@@ -102,9 +104,9 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 
 ## Book (edited)
 
-<a href="https://doi.org/10.1007/978-3-030-52829-4"><img src="{{ '/images/image015.jpg' | relative_url }}" alt="Book cover" style="float:right;height:150px;margin:0 0 1em 1em"></a>
+<a href="https://doi.org/10.1007/978-3-030-52829-4"><img src="{{ base_path }}/images/image015.jpg" alt="Book cover" style="float:right;height:150px;margin:0 0 1em 1em"></a>
 
-1. **Zhao, Z.**, Hellström, M. (eds.): Towards Interoperable Research Infrastructures for Environmental and Earth Sciences: A Reference Model Guided Approach for Common Challenges. Springer International Publishing, Cham (2020). <https://doi.org/10.1007/978-3-030-52829-4> [[ENVRI archive](https://envri.eu/envri-book/)] [[Book interview](https://envri.eu/interview-with-zhiming-zhao/)] [![CC BY]({{ '/images/image013.png' | relative_url }})](https://creativecommons.org/licenses/by/4.0/)
+1. **Zhao, Z.**, Hellström, M. (eds.): Towards Interoperable Research Infrastructures for Environmental and Earth Sciences: A Reference Model Guided Approach for Common Challenges. Springer International Publishing, Cham (2020). <https://doi.org/10.1007/978-3-030-52829-4> [[ENVRI archive](https://envri.eu/envri-book/)] [[Book interview](https://envri.eu/interview-with-zhiming-zhao/)] [![CC BY]({{ base_path }}/images/image013.png)](https://creativecommons.org/licenses/by/4.0/)
 
 <div style="clear:both"></div>
 

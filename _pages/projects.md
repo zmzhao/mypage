@@ -5,9 +5,11 @@ permalink: /projects/
 author_profile: true
 ---
 
+{% include base_path %}
+
 {% assign logos = "https://nwo.nl/|image003.jpg|NWO;https://lter-life.nl/en|image018.png|LTER-LIFE;https://envri.eu/|image021.png|ENVRI-Hub NEXT;https://oscars-project.eu/|image017.png|OSCARS;https://everse.software/|image022.jpg|EVERSE;https://blue-cloud.org/blue-cloud-2026|image016.jpg|Blue-Cloud 2026;https://www.lifewatch.eu/|image002.png|LifeWatch ERIC;https://biodt.eu/|image022.png|BioDT;http://envri.eu/envri-fair/|image006.jpg|ENVRI-FAIR;https://www.blue-cloud.org/|image007.png|Blue-Cloud;http://www.clarify-project.eu/|image008.png|CLARIFY;https://articonf.eu/|image005.jpg|ARTICONF;http://www.switchproject.eu/|image009.jpg|SWITCH;https://www.vre4eic.eu/|image011.png|VRE4EIC;http://www.envriplus.eu/|image014.jpg|ENVRIplus" | split: ";" %}
 <div style="display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px;margin-bottom:2em">
-{% for l in logos %}{% assign p = l | split: "|" %}<a href="{{ p[0] }}" title="{{ p[2] }}"><img src="{{ '/images/' | append: p[1] | relative_url }}" alt="{{ p[2] }}" style="height:48px;width:auto"></a>
+{% for l in logos %}{% assign p = l | split: "|" %}<a href="{{ p[0] }}" title="{{ p[2] }}"><img src="{{ base_path }}/images/{{ p[1] }}" alt="{{ p[2] }}" style="height:48px;width:auto"></a>
 {% endfor %}
 </div>
 

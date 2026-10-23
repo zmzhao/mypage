@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 About me
 ======
 I received my Ph.D. in computer science in 2004 from the University of Amsterdam ([UvA](https://www.uva.nl/)). I am an associate professor and the chair of the Multiscale Networked Systems ([MNS](https://mns-research.nl/)) research group in the Informatics Institute ([IvI](https://ivi.uva.nl/)) at UvA. I am the technical manager of the Virtual Lab and Innovation Center ([VLIC](https://www.lifewatch.eu/organisation-governance/vlab-innovation-centre/)) of [LifeWatch ERIC](https://www.lifewatch.eu/), a European research infrastructure in ecology and biodiversity science.
