@@ -11,12 +11,12 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Dr. Zhiming Zhao / Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://zmzhao.github.io/mypage # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "Zhiming Zhao"
+description              : &description "Dr. Zhiming Zhao, Associate Professor, Multiscale Networked Systems (MNS), University of Amsterdam"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://zmzhao.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+baseurl                  : "/mypage" # the subpath of your site, e.g. "/blog"
+repository               : "zmzhao/mypage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "image010.jpg"
-  name             : "About me"
+  name             : "Dr. Zhiming Zhao"
   pronouns         : he/his # example: "she/her"  
-  bio              : "I am an associate professor and the chair of the <a href=https://mns-research.nl>Multiscale Network Systems (MNS) research group</a>, in the <a href=https://ivi.uva.nl/> Informatics Institute (IvI) </a> at <a href=https://www.uva.nl/>University of Amsterdam</a>. I am the technical manager of the <a href=https://www.lifewatch.eu/organisation-governance/vlab-innovation-centre/> Virtual Lab and Innovation Center (VLIC) </a> of <a href=https://www.lifewatch.eu/>LifeWatch ERIC</a>, a European research infrastructure in ecology and biodiversity science."
+  bio              : "Associate Professor, chair of the Multiscale Networked Systems (MNS) group, University of Amsterdam. Technical Manager, LifeWatch ERIC VLIC."
   location         : "Science Park Amsterdam, the Netherlands"
   employer         : "University of Amsterdam"
   uri              : https://www.uva.nl # URL
-  email            : "z.zhao[at]uva.nl" 
+  email            : "z.zhao@uva.nl" 
 
   # Academic websites
   academia         : # URL
@@ -87,7 +87,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
