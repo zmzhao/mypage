@@ -11,54 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science, University of Amsterdam, 2004
+  * Thesis: *An agent based architecture for constructing Interactive Simulation Systems*
+  * Promoter/co-promoter: prof. dr. P.M.A. Sloot & dr. G.D. van Albada
 
-Work experience
+Current positions
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Associate Professor, Informatics Institute (IvI), University of Amsterdam
+* Chair, Multiscale Networked Systems ([MNS](https://mns-research.nl/)) research group
+* Technical Manager, Virtual Lab and Innovation Center ([VLIC](https://www.lifewatch.eu/organisation-governance/vlab-innovation-centre/)), LifeWatch ERIC
+* Co-PI, NWO [LTER-LIFE](https://lter-life.nl/en)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Quality-critical distributed systems on programmable infrastructures (Cloud, Edge, SDN)
+* Performance optimisation, anomaly diagnosis and AIOps for cloud-native applications
+* Virtual Research Environments, digital twins and research infrastructures
+
+Project leadership
+======
+* Coordinator: EU H2020 [SWITCH](http://www.switchproject.eu/)
+* Theme leader *Data for Science*: EU H2020 [ENVRIplus](http://www.envriplus.eu/)
+* Technical work package leader: [ENVRI-FAIR](http://envri.eu/envri-fair/), [ARTICONF](http://articonf.eu/), [CLARIFY](http://www.clarify-project.eu/)
+* UvA PI: ENVRI-Hub NEXT, EVERSE, OSCARS, Blue-Cloud 2026 (see [Projects]({{ base_path }}/projects/))
+
+Professional service
+======
+* IEEE Senior Member
+* Managing Editor, [Journal of Cloud Computing](https://journalofcloudcomputing.springeropen.com/)
+* Editorial board, [Blockchain: Research and Applications](https://www.journals.elsevier.com/blockchain-research-and-applications)
+* Workshop organisation, programme committees and summer schools: see [Community]({{ base_path }}/community/)
+
+PhD supervision
+======
+* Promoter: Yuandou Wang (2025), Na Li (2025)
+* Co-promoter: Hongyun Liu (2024), Ruyue Xin (2023), Zeshun Shi (2022), Yang Hu (2019), Huan Zhou (2019)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

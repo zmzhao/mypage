@@ -1,0 +1,12 @@
+---
+title: "An Automated Customization and Performance Profiling Framework for Permissioned Blockchains in a Virtualized Environment"
+collection: publications
+category: conferences
+permalink: /publication/2019-conferences-an-automated-customization-and-performance-profili
+date: 2019-12-28
+venue: "2019 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)"
+paperurl: "https://doi.org/10.1109/CloudCom.2019.00069"
+citation: "Shi, Z., Zhou, H., Surbiryala, J., Hu, Y., de Laat, C., <b>Zhao, Z.</b>: An Automated Customization and Performance Profiling Framework for Permissioned Blockchains in a Virtualized Environment. 2019 IEEE International Conference on Cloud Computing Technology and Science (CloudCom). pp. 404–410. IEEE, Sydney, Australia (2019)."
+---
+
+[OA](https://zenodo.org/record/3570776)
