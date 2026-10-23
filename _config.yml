@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "image010.jpg"
   name             : "About me"
   pronouns         : he/his # example: "she/her"  
   bio              : "I am an associate professor and the chair of the <a href=https://mns-research.nl>Multiscale Network Systems (MNS) research group</a>, in the <a href=https://ivi.uva.nl/> Informatics Institute (IvI) </a> at <a href=https://www.uva.nl/>University of Amsterdam</a>. I am the technical manager of the <a href=https://www.lifewatch.eu/organisation-governance/vlab-innovation-centre/> Virtual Lab and Innovation Center (VLIC) </a> of <a href=https://www.lifewatch.eu/>LifeWatch ERIC</a>, a European research infrastructure in ecology and biodiversity science."
