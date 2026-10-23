@@ -1,16 +1,16 @@
 # Order of links in the site header.
 main:
-  - title: "Research"
-    url: /research/
-
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Community"
-    url: /community/
-
   - title: "Publications"
-    url: /publications/
+    url: /publications/ 
+
+  - title: "Teaching"
+    url: /teaching/    
+        
+  - title: "Blog Posts"
+    url: /year-archive/
+    
+  - title: "CV"
+    url: /cv/
 
   - title: "Software"
     url: https://github.com/QCDIS
