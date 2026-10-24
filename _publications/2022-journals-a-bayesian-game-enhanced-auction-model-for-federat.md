@@ -9,5 +9,6 @@ year: 2022
 authors: "Shi, Z., Zhou, H., De Laat, C., <b>Zhao, Z.</b>"
 venue_full: "Future Generation Computer Systems. 136, 49–66"
 paperurl: "https://doi.org/10.1016/j.future.2022.05.017"
+bibtexurl: "/files/bibtex/2022-journals-a-bayesian-game-enhanced-auction-model-for-federat.bib"
 citation: "Shi, Z., Zhou, H., De Laat, C., <b>Zhao, Z.</b>: A Bayesian game-enhanced auction model for federated cloud services using blockchain. Future Generation Computer Systems. 136, 49–66 (2022)."
 ---

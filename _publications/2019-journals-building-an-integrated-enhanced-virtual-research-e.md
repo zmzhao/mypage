@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1108/EL-09-2018-0183"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/3497056"
+bibtexurl: "/files/bibtex/2019-journals-building-an-integrated-enhanced-virtual-research-e.bib"
 citation: "Remy, L., Ivanovic, D., Theodoridou, M., Kritsotaki, A., Martin, P., Bailo, D., Sbarra, M., <b>Zhao, Z.</b>, Jeffery, K.: Building an Integrated Enhanced Virtual Research Environment Metadata Catalogue. The Electronic Library (2019)."
 ---
 

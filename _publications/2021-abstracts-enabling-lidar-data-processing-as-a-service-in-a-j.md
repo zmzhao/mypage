@@ -9,5 +9,6 @@ year: 2021
 authors: "Koulouzis, S., Shi, Y., Wan, Y., Bianchi, R., Kissling, D., <b>Zhao, Z.</b>"
 venue_full: "EGU General Assembly 2021, online, EGU21-8294"
 paperurl: "https://doi.org/10.5194/egusphere-egu21-8294"
+bibtexurl: "/files/bibtex/2021-abstracts-enabling-lidar-data-processing-as-a-service-in-a-j.bib"
 citation: "Koulouzis, S., Shi, Y., Wan, Y., Bianchi, R., Kissling, D., <b>Zhao, Z.</b>: Enabling LiDAR data processing as a service in a Jupyter environment. EGU General Assembly 2021, online, EGU21-8294."
 ---

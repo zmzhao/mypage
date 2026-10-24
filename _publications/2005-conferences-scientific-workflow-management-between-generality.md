@@ -9,5 +9,6 @@ year: 2005
 authors: "<b>Zhao, Z.</b>, Belloum, A., Wibisono, A., Terpstra, F., de Boer, P.T., Sloot, P., Hertzberger, B."
 venue_full: "Fifth International Conference on Quality Software (QSIC'05). pp. 357–364. IEEE, Melbourne, Australia"
 paperurl: "https://doi.org/10.1109/QSIC.2005.56"
+bibtexurl: "/files/bibtex/2005-conferences-scientific-workflow-management-between-generality.bib"
 citation: "<b>Zhao, Z.</b>, Belloum, A., Wibisono, A., Terpstra, F., de Boer, P.T., Sloot, P., Hertzberger, B.: Scientific workflow management: between generality and applicability. Fifth International Conference on Quality Software (QSIC'05). pp. 357–364. IEEE, Melbourne, Australia (2005)."
 ---

@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1109/eScience55777.2022.00054"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/7602527"
+bibtexurl: "/files/bibtex/2022-conferences-context-aware-notebook-search-in-a-jupyter-based-v.bib"
 citation: "Li, N., Farshidi, S., Bianchi, R., Koulouzis, S., <b>Zhao, Z.</b>: Context-Aware Notebook Search in a Jupyter-Based Virtual Research Environment. 2022 IEEE 18th International Conference on e-Science (e-Science). pp. 393–394. IEEE, Salt Lake City, UT, USA (2022)."
 ---
 

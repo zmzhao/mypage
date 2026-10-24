@@ -14,6 +14,7 @@ paperurl: "https://doi.org/10.1109/INFOCOM.2019.8737580"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/3471494"
+bibtexurl: "/files/bibtex/2019-conferences-a-blockchain-based-witness-model-for-trustworthy-c.bib"
 citation: "Zhou, H., Ouyang, X., Ren, Z., Su, J., de Laat, C., <b>Zhao, Z.</b>: A Blockchain based Witness Model for Trustworthy Cloud Service Level Agreement Enforcement. IEEE INFOCOM 2019 – IEEE Conference on Computer Communications. pp. 1567–1575. IEEE, Paris, France (2019)."
 ---
 

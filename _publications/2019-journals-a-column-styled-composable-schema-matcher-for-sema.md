@@ -9,5 +9,6 @@ year: 2019
 authors: "Liao, X., Bottelier, J., <b>Zhao, Z.</b>"
 venue_full: "Data Science Journal. 18-25"
 paperurl: "https://doi.org/10.5334/dsj-2019-025"
+bibtexurl: "/files/bibtex/2019-journals-a-column-styled-composable-schema-matcher-for-sema.bib"
 citation: "Liao, X., Bottelier, J., <b>Zhao, Z.</b>: A Column Styled Composable Schema Matcher for Semantic Data-Types. Data Science Journal. 18-25 (2019)."
 ---

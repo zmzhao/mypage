@@ -9,5 +9,6 @@ year: 2019
 authors: "Yang Hu"
 venue_full: "PhD thesis, University of Amsterdam"
 paperurl: "https://hdl.handle.net/11245.1/ca3f2127-2236-42ae-965e-2289798b12ab"
+bibtexurl: "/files/bibtex/2019-theses-resource-scheduling-for-quality-critical-applicati.bib"
 citation: "Yang Hu: Resource Scheduling for Quality-Critical Applications on Cloud Infrastructure. PhD thesis, University of Amsterdam."
 ---

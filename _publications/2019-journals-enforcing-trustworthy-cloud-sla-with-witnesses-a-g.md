@@ -9,5 +9,6 @@ year: 2019
 authors: "Zhou, H., Ouyang, X., Su, J., de Laat, C., <b>Zhao, Z.</b>"
 venue_full: "Concurrency Computation: Practice and Experience"
 paperurl: "https://doi.org/10.1002/cpe.5511"
+bibtexurl: "/files/bibtex/2019-journals-enforcing-trustworthy-cloud-sla-with-witnesses-a-g.bib"
 citation: "Zhou, H., Ouyang, X., Su, J., de Laat, C., <b>Zhao, Z.</b>: Enforcing trustworthy cloud SLA with witnesses: A game theory–based model using smart contracts. Concurrency Computation: Practice and Experience (2019)."
 ---

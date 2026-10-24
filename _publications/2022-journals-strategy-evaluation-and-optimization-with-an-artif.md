@@ -9,5 +9,6 @@ year: 2022
 authors: "Zhu, Z., Chen, B., Chen, H., Qiu, S., Fan, C., Zhao, Y., Guo, R., Ai, C., Liu, Z., <b>Zhao, Z.</b>, Fang, L., Lu, X."
 venue_full: "The Innovation. 3, 100274"
 paperurl: "https://doi.org/10.1016/j.xinn.2022.100274"
+bibtexurl: "/files/bibtex/2022-journals-strategy-evaluation-and-optimization-with-an-artif.bib"
 citation: "Zhu, Z., Chen, B., Chen, H., Qiu, S., Fan, C., Zhao, Y., Guo, R., Ai, C., Liu, Z., <b>Zhao, Z.</b>, Fang, L., Lu, X.: Strategy evaluation and optimization with an artificial society toward a Pareto optimum. The Innovation. 3, 100274 (2022)."
 ---

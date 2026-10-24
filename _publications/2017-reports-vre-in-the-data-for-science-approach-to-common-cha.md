@@ -9,5 +9,6 @@ year: 2017
 authors: "<b>Zhao, Z.</b>, Martin, P., Jeffery, K."
 venue_full: "ERCIM News, April 2017"
 paperurl: "https://ercim-news.ercim.eu/en109/research-and-society-virtual-research-environments/vre-in-the-data-for-science-approach-to-common-challenges-in-envriplus"
+bibtexurl: "/files/bibtex/2017-reports-vre-in-the-data-for-science-approach-to-common-cha.bib"
 citation: "<b>Zhao, Z.</b>, Martin, P., Jeffery, K.: VRE in the Data for Science Approach to Common Challenges in ENVRIplus. ERCIM News, April 2017."
 ---

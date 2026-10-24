@@ -9,5 +9,6 @@ year: 2018
 authors: "Zhou, H., Taal, A., Koulouzis, S., Wang, J., Hu, Y., Suciu, G., Poenaru, V., de Laat, C., <b>Zhao, Z.</b>"
 venue_full: "Shi, Y., et al. (eds.) Computational Science – ICCS 2018. pp. 644–654. Springer, Cham"
 paperurl: "https://doi.org/10.1007/978-3-319-93701-4_51"
+bibtexurl: "/files/bibtex/2018-conferences-dynamic-real-time-infrastructure-planning-and-depl.bib"
 citation: "Zhou, H., Taal, A., Koulouzis, S., Wang, J., Hu, Y., Suciu, G., Poenaru, V., de Laat, C., <b>Zhao, Z.</b>: Dynamic Real-Time Infrastructure Planning and Deployment for Disaster Early Warning Systems. Shi, Y., et al. (eds.) Computational Science – ICCS 2018. pp. 644–654. Springer, Cham (2018)."
 ---

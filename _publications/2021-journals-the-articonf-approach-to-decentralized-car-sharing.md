@@ -9,5 +9,6 @@ year: 2021
 authors: "Saurabh, N., Rubia, C., Palanisamy, A., Koulouzis, S., Sefidanoski, M., Chakravorty, A., <b>Zhao, Z.</b>, Karadimce, A., Prodan, R."
 venue_full: "Blockchain: Research and Applications. 100013"
 paperurl: "https://doi.org/10.1016/j.bcra.2021.100013"
+bibtexurl: "/files/bibtex/2021-journals-the-articonf-approach-to-decentralized-car-sharing.bib"
 citation: "Saurabh, N., Rubia, C., Palanisamy, A., Koulouzis, S., Sefidanoski, M., Chakravorty, A., <b>Zhao, Z.</b>, Karadimce, A., Prodan, R.: The ARTICONF Approach to Decentralized Car-Sharing. Blockchain: Research and Applications. 100013 (2021)."
 ---

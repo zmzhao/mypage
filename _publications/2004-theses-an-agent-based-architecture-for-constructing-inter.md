@@ -9,5 +9,6 @@ year: 2004
 authors: "<b>Zhao, Z.</b>"
 venue_full: "PhD thesis, Universiteit van Amsterdam. Promoter/co-promoter: prof. dr. P.M.A. Sloot & dr. G.D. van Albada"
 paperurl: "http://dare.uva.nl/record/1/236254"
+bibtexurl: "/files/bibtex/2004-theses-an-agent-based-architecture-for-constructing-inter.bib"
 citation: "<b>Zhao, Z.</b>: An agent based architecture for constructing Interactive Simulation Systems. PhD thesis, Universiteit van Amsterdam. Promoter/co-promoter: prof. dr. P.M.A. Sloot & dr. G.D. van Albada (2004)."
 ---

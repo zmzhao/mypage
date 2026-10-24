@@ -9,5 +9,6 @@ year: 2023
 authors: "Xin, R., Liu, H., Chen, P., <b>Zhao, Z.</b>"
 venue_full: "J Cloud Comp. 12, 7"
 paperurl: "https://doi.org/10.1186/s13677-022-00383-6"
+bibtexurl: "/files/bibtex/2023-journals-robust-and-accurate-performance-anomaly-detection.bib"
 citation: "Xin, R., Liu, H., Chen, P., <b>Zhao, Z.</b>: Robust and accurate performance anomaly detection and prediction for cloud applications: a novel ensemble learning-based framework. J Cloud Comp. 12, 7 (2023)."
 ---

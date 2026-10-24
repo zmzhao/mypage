@@ -9,5 +9,6 @@ year: 2012
 authors: "<b>Zhao, Z.</b>, Grosso, P., van der Ham, J., Koning, R., de Laat, C."
 venue_full: "Next Generation Content Delivery Infrastructure: Emerging Paradigms and Technologies, IGI. ISBN 978-1-4666-1794-0"
 paperurl: "http://dx.doi.org/10.4018/978-1-4666-1794-0.ch006"
+bibtexurl: "/files/bibtex/2012-chapters-quality-guaranteed-media-delivery-over-advanced-ne.bib"
 citation: "<b>Zhao, Z.</b>, Grosso, P., van der Ham, J., Koning, R., de Laat, C.: Quality guaranteed media delivery over advanced network. Next Generation Content Delivery Infrastructure: Emerging Paradigms and Technologies, IGI (2012). ISBN 978-1-4666-1794-0."
 ---

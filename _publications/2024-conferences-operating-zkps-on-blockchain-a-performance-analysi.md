@@ -11,5 +11,6 @@ venue_full: "2024 IEEE International Conference on Decentralized Applications an
 excerpt: "**Best paper**"
 award: "Best paper"
 paperurl: "https://doi.org/10.1109/DAPPS61106.2024.00018"
+bibtexurl: "/files/bibtex/2024-conferences-operating-zkps-on-blockchain-a-performance-analysi.bib"
 citation: "Pan, R., Shi, Z., Belloum, A., <b>Zhao, Z.</b>: Operating ZKPs on Blockchain: A Performance Analysis Based on Hyperledger Fabric. 2024 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS). pp. 69–78. IEEE, Shanghai, China (2024)."
 ---

@@ -9,5 +9,6 @@ year: 2009
 authors: "<b>Zhao, Z.</b>, Belloum, A., Bubak, M."
 venue_full: "Future Generation Computer Systems. 25, 525–527"
 paperurl: "https://doi.org/10.1016/j.future.2008.10.011"
+bibtexurl: "/files/bibtex/2009-editorials-special-section-on-workflow-systems-and-applicatio.bib"
 citation: "<b>Zhao, Z.</b>, Belloum, A., Bubak, M.: Special section on workflow systems and applications in e-Science. Future Generation Computer Systems. 25, 525–527 (2009)."
 ---

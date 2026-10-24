@@ -9,5 +9,6 @@ year: 2023
 authors: "Chen, S., Huang, G., Lin, S., Jiang, W., <b>Zhao, Z.</b>"
 venue_full: "Xu, Y., et al. (eds.) Machine Learning for Cyber Security. pp. 335–344. Springer Nature Switzerland, Cham"
 paperurl: "https://doi.org/10.1007/978-3-031-20099-1_28"
+bibtexurl: "/files/bibtex/2023-conferences-overlapping-community-discovery-algorithm-based-on.bib"
 citation: "Chen, S., Huang, G., Lin, S., Jiang, W., <b>Zhao, Z.</b>: Overlapping Community Discovery Algorithm Based on Three-Level Neighbor Node Influence. Xu, Y., et al. (eds.) Machine Learning for Cyber Security. pp. 335–344. Springer Nature Switzerland, Cham (2023)."
 ---

@@ -9,5 +9,6 @@ year: 2022
 authors: "Wang, Y., Koulouzis, S., Bianchi, R., Li, N., Shi, Y., Timmermans, J., Kissling, W.D., <b>Zhao, Z.</b>"
 venue_full: "Data Intelligence. 4, 409–425"
 paperurl: "https://doi.org/10.1162/dint_a_00140"
+bibtexurl: "/files/bibtex/2022-journals-scaling-notebooks-as-re-configurable-cloud-workflo.bib"
 citation: "Wang, Y., Koulouzis, S., Bianchi, R., Li, N., Shi, Y., Timmermans, J., Kissling, W.D., <b>Zhao, Z.</b>: Scaling Notebooks as Re-configurable Cloud Workflows. Data Intelligence. 4, 409–425 (2022)."
 ---

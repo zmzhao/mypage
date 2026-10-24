@@ -48,6 +48,14 @@ author_profile: true
   .pub-links a:hover, .pub-links button:hover { background: #555; border-color: #555; color: #fff; }
   .pub-cite { display: none; margin-top: .45em; padding: .5em .7em; background: #f4f4f4; border-left: 3px solid #9a9a9a; font-size: .95em; }
   .pub-cite.open { display: block; }
+  .pub-bib { display: none; margin-top: .45em; background: #f4f4f4; border-left: 3px solid #9a9a9a; padding: .5em .7em; }
+  .pub-bib.open { display: block; }
+  .pub-bib pre { margin: 0 0 .4em; padding: 0; background: none; border: 0; font-size: .85em; line-height: 1.4;
+    white-space: pre-wrap; word-break: break-word; color: #333; }
+  .pub-bib-actions { font-size: .88em; }
+  .pub-bib-actions button, .pub-bib-actions a { font: inherit; font-weight: 600; padding: .05em .55em; border: 1px solid #9a9a9a;
+    border-radius: 3px; background: #fff; color: #444; text-decoration: none; cursor: pointer; }
+  .pub-bib-actions button:hover, .pub-bib-actions a:hover { background: #555; border-color: #555; color: #fff; }
 </style>
 
 <p class="pub-intro">{{ pubs.size }} publications. Full list also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
@@ -86,8 +94,11 @@ author_profile: true
           {% if post.paperurl %}<a href="{{ post.paperurl }}">{% if post.paperurl contains "doi" %}DOI{% elsif post.paperurl contains ".pdf" %}PDF{% else %}Link{% endif %}</a>{% endif %}
           {% for l in post.links %}<a href="{{ l.url }}">{% if l.label == "OA" %}Open access{% else %}{{ l.label }}{% endif %}</a>{% endfor %}
           <button type="button" class="pub-cite-btn">Cite</button>
+          {% assign bibname = post.path | split: "/" | last | remove: ".md" %}
+          <button type="button" class="pub-bib-btn" data-bib="{{ base_path }}/files/bibtex/{{ bibname }}.bib">BibTeX</button>
         </div>
         <div class="pub-cite">{{ post.citation }}</div>
+        <div class="pub-bib"><pre></pre><div class="pub-bib-actions"><button type="button" class="pub-bib-copy">Copy</button> <a class="pub-bib-dl" href="{{ base_path }}/files/bibtex/{{ bibname }}.bib" download>Download .bib</a></div></div>
       </div>
     </div>
     {% endfor %}
@@ -126,6 +137,24 @@ author_profile: true
   document.querySelectorAll(".pub-cite-btn").forEach(function (b) {
     b.addEventListener("click", function () {
       b.closest(".pub-body").querySelector(".pub-cite").classList.toggle("open");
+    });
+  });
+  document.querySelectorAll(".pub-bib-btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var box = b.closest(".pub-body").querySelector(".pub-bib"), pre = box.querySelector("pre");
+      if (!box.classList.contains("open") && !pre.textContent) {
+        pre.textContent = "Loading…";
+        fetch(b.getAttribute("data-bib")).then(function (r) { if (!r.ok) throw r; return r.text(); })
+          .then(function (t) { pre.textContent = t.split("\n").filter(function (l) { return l.charAt(0) !== "%"; }).join("\n").trim(); })
+          .catch(function () { pre.textContent = "BibTeX record not available yet."; });
+      }
+      box.classList.toggle("open");
+    });
+  });
+  document.querySelectorAll(".pub-bib-copy").forEach(function (c) {
+    c.addEventListener("click", function () {
+      var t = c.closest(".pub-bib").querySelector("pre").textContent;
+      navigator.clipboard.writeText(t).then(function () { c.textContent = "Copied"; setTimeout(function () { c.textContent = "Copy"; }, 1500); });
     });
   });
 })();

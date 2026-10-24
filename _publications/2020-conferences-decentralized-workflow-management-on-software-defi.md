@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1109/SERVICES48979.2020.00059"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/4104644"
+bibtexurl: "/files/bibtex/2020-conferences-decentralized-workflow-management-on-software-defi.bib"
 citation: "Wang, Y., <b>Zhao, Z.</b>: Decentralized workflow management on software defined infrastructure. The 1st Workshop on Data-Centric Workflows on Heterogeneous Infrastructures: Challenges and Directions (DAWHI), in the context of IEEE Services Congress (2020)."
 ---
 

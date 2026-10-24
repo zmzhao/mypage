@@ -9,5 +9,6 @@ year: 2023
 authors: "Xin, R., Chen, P., <b>Zhao, Z.</b>"
 venue_full: "Journal of Systems and Software. 111724"
 paperurl: "https://doi.org/10.1016/j.jss.2023.111724"
+bibtexurl: "/files/bibtex/2023-journals-causalrca-causal-inference-based-precise-fine-grai.bib"
 citation: "Xin, R., Chen, P., <b>Zhao, Z.</b>: CausalRCA: Causal inference based precise fine-grained root cause localization for microservice applications. Journal of Systems and Software. 111724 (2023)."
 ---

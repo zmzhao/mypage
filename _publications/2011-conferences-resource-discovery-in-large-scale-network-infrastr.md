@@ -9,5 +9,6 @@ year: 2011
 authors: "<b>Zhao, Z.</b>, Taal, A., Grosso, P., de Laat, C."
 venue_full: "2011 IEEE Sixth International Conference on Networking, Architecture, and Storage. pp. 186–190. IEEE, Dalian, China"
 paperurl: "https://doi.org/10.1109/NAS.2011.43"
+bibtexurl: "/files/bibtex/2011-conferences-resource-discovery-in-large-scale-network-infrastr.bib"
 citation: "<b>Zhao, Z.</b>, Taal, A., Grosso, P., de Laat, C.: Resource Discovery in Large Scale Network Infrastructure. 2011 IEEE Sixth International Conference on Networking, Architecture, and Storage. pp. 186–190. IEEE, Dalian, China (2011)."
 ---

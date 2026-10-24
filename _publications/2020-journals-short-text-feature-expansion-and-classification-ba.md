@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1002/int.22290"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/4042991"
+bibtexurl: "/files/bibtex/2020-journals-short-text-feature-expansion-and-classification-ba.bib"
 citation: "Zhang, L., Jiang, W., <b>Zhao, Z.</b>: Short-text feature expansion and classification based on nonnegative matrix factorization. Int Journal of Intelligent Systems. int.22290 (2020)."
 ---
 

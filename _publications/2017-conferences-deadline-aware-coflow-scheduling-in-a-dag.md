@@ -9,5 +9,6 @@ year: 2017
 authors: "Wang, J., Zhou, H., Hu, Y., de Laat, C., <b>Zhao, Z.</b>"
 venue_full: "2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom). pp. 341–346. IEEE, Hong Kong"
 paperurl: "https://doi.org/10.1109/CloudCom.2017.55"
+bibtexurl: "/files/bibtex/2017-conferences-deadline-aware-coflow-scheduling-in-a-dag.bib"
 citation: "Wang, J., Zhou, H., Hu, Y., de Laat, C., <b>Zhao, Z.</b>: Deadline-Aware Coflow Scheduling in a DAG. 2017 IEEE International Conference on Cloud Computing Technology and Science (CloudCom). pp. 341–346. IEEE, Hong Kong (2017)."
 ---

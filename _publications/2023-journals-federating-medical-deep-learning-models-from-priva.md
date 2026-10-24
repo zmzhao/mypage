@@ -9,5 +9,6 @@ year: 2023
 authors: "Launet, L., Wang, Y., Colomer, A., Igual, J., Pulgarín-Ospina, C., Koulouzis, S., Bianchi, R., Mosquera-Zamudio, A., Monteagudo, C., Naranjo, V., <b>Zhao, Z.</b>"
 venue_full: "Applied Sciences. 13, 919"
 paperurl: "https://doi.org/10.3390/app13020919"
+bibtexurl: "/files/bibtex/2023-journals-federating-medical-deep-learning-models-from-priva.bib"
 citation: "Launet, L., Wang, Y., Colomer, A., Igual, J., Pulgarín-Ospina, C., Koulouzis, S., Bianchi, R., Mosquera-Zamudio, A., Monteagudo, C., Naranjo, V., <b>Zhao, Z.</b>: Federating Medical Deep Learning Models from Private Jupyter Notebooks to Distributed Institutions. Applied Sciences. 13, 919 (2023)."
 ---

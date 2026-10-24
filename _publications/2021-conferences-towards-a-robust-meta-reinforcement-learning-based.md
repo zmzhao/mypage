@@ -14,6 +14,7 @@ paperurl: "https://doi.org/10.1109/CLOUD53861.2021.00082"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/5484397"
+bibtexurl: "/files/bibtex/2021-conferences-towards-a-robust-meta-reinforcement-learning-based.bib"
 citation: "Liu, H., Chen, P., <b>Zhao, Z.</b>: Towards A Robust Meta-Reinforcement Learning-Based Scheduling Framework for Time Critical Tasks in Cloud Environments. IEEE CLOUD (2021), Online."
 ---
 

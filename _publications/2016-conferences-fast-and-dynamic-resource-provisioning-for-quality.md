@@ -9,5 +9,6 @@ year: 2016
 authors: "Zhou, H., Hu, Y., Wang, J., Martin, P., de Laat, C., <b>Zhao, Z.</b>"
 venue_full: "2016 IEEE 19th International Symposium on Real-Time Distributed Computing (ISORC). pp. 92–99. IEEE, York, United Kingdom"
 paperurl: "https://doi.org/10.1109/ISORC.2016.22"
+bibtexurl: "/files/bibtex/2016-conferences-fast-and-dynamic-resource-provisioning-for-quality.bib"
 citation: "Zhou, H., Hu, Y., Wang, J., Martin, P., de Laat, C., <b>Zhao, Z.</b>: Fast and Dynamic Resource Provisioning for Quality Critical Cloud Applications. 2016 IEEE 19th International Symposium on Real-Time Distributed Computing (ISORC). pp. 92–99. IEEE, York, United Kingdom (2016)."
 ---

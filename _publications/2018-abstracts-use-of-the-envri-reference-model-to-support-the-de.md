@@ -9,5 +9,6 @@ year: 2018
 authors: "Nieva de la Hidalga, A., Hardisty, A.R., Magagna, B., Martin, P.W., <b>Zhao, Z.</b>"
 venue_full: "EGU General Assembly 2018, 18552"
 paperurl: "http://adsabs.harvard.edu/abs/2018EGUGA..2018552N"
+bibtexurl: "/files/bibtex/2018-abstracts-use-of-the-envri-reference-model-to-support-the-de.bib"
 citation: "Nieva de la Hidalga, A., Hardisty, A.R., Magagna, B., Martin, P.W., <b>Zhao, Z.</b>: Use of the ENVRI Reference Model to Support the Design of Environmental Research Infrastructures. EGU General Assembly 2018, 18552."
 ---

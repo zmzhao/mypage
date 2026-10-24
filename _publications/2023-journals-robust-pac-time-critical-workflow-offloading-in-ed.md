@@ -9,5 +9,6 @@ year: 2023
 authors: "Liu, H., Xin, R., Chen, P., Gao, H., Grosso, P., <b>Zhao, Z.</b>"
 venue_full: "J Cloud Comp. 12, 58"
 paperurl: "https://doi.org/10.1186/s13677-023-00434-6"
+bibtexurl: "/files/bibtex/2023-journals-robust-pac-time-critical-workflow-offloading-in-ed.bib"
 citation: "Liu, H., Xin, R., Chen, P., Gao, H., Grosso, P., <b>Zhao, Z.</b>: Robust-PAC time-critical workflow offloading in edge-to-cloud continuum among heterogeneous resources. J Cloud Comp. 12, 58 (2023)."
 ---

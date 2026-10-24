@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1109/UCC56403.2022.00058"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/7748256"
+bibtexurl: "/files/bibtex/2022-conferences-provenance-enhanced-root-cause-analysis-for-jupyte.bib"
 citation: "Xin, R., Stallinga, S., Liu, H., Chen, P., <b>Zhao, Z.</b>: Provenance-enhanced Root Cause Analysis for Jupyter Notebooks. 2022 IEEE/ACM 15th International Conference on Utility and Cloud Computing (UCC). pp. 327–333. IEEE, Vancouver, WA, USA (2022)."
 ---
 

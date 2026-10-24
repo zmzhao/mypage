@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1016/j.future.2019.05.076"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/3467100"
+bibtexurl: "/files/bibtex/2019-journals-mapping-heterogeneous-research-infrastructure-meta.bib"
 citation: "Martin, P., Remy, L., Theodoridou, M., Jeffery, K., <b>Zhao, Z.</b>: Mapping heterogeneous research infrastructure metadata into a unified catalogue for use in a generic virtual research environment. Future Generation Computer Systems. 101, 1–13 (2019)."
 ---
 

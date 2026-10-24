@@ -9,5 +9,6 @@ year: 2024
 authors: "Pelouze, G., Koulouzis, S., <b>Zhao, Z.</b>"
 venue_full: "Oral, EGU General Assembly 2024"
 paperurl: "https://doi.org/10.5194/egusphere-egu24-17978"
+bibtexurl: "/files/bibtex/2024-abstracts-notebook-as-a-vre-naavre-from-private-notebooks-to.bib"
 citation: "Pelouze, G., Koulouzis, S., <b>Zhao, Z.</b>: Notebook-as-a-VRE (NaaVRE): From private notebooks to a collaborative cloud virtual research environment. Oral, EGU General Assembly 2024."
 ---

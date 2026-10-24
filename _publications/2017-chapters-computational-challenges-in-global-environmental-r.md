@@ -12,6 +12,7 @@ paperurl: "https://www.crcpress.com/Terrestrial-Ecosystem-Research-Infrastructur
 links:
   - label: "OA"
     url: "https://zenodo.org/record/3361569"
+bibtexurl: "/files/bibtex/2017-chapters-computational-challenges-in-global-environmental-r.bib"
 citation: "Martin, P., Chen, Y., Hardisty, A., Jeffery, K., <b>Zhao, Z.</b>: Computational Challenges in Global Environmental Research Infrastructures. Terrestrial Ecosystem Research Infrastructures: Challenges, New Developments and Perspectives (2017)."
 ---
 

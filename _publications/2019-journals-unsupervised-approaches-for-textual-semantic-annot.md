@@ -9,5 +9,6 @@ year: 2019
 authors: "Liao, X., <b>Zhao, Z.</b>"
 venue_full: "ACM Comput. Surv. 52, 1–45"
 paperurl: "https://doi.org/10.1145/3324473"
+bibtexurl: "/files/bibtex/2019-journals-unsupervised-approaches-for-textual-semantic-annot.bib"
 citation: "Liao, X., <b>Zhao, Z.</b>: Unsupervised Approaches for Textual Semantic Annotation, A Survey. ACM Comput. Surv. 52, 1–45 (2019)."
 ---

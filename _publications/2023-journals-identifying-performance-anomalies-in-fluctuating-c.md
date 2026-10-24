@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1016/j.future.2023.03.020"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/7764124"
+bibtexurl: "/files/bibtex/2023-journals-identifying-performance-anomalies-in-fluctuating-c.bib"
 citation: "Song, Y., Xin, R., Chen, P., Zhang, R., Chen, J., <b>Zhao, Z.</b>: Identifying performance anomalies in fluctuating cloud environments: A robust correlative-GNN-based explainable approach. Future Generation Computer Systems. 145, 77–86 (2023)."
 ---
 

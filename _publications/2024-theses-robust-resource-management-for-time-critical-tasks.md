@@ -9,5 +9,6 @@ year: 2024
 authors: "Hongyun Liu"
 venue_full: "PhD thesis, University of Amsterdam"
 paperurl: "https://pure.uva.nl/ws/files/170382930/Thesis.pdf"
+bibtexurl: "/files/bibtex/2024-theses-robust-resource-management-for-time-critical-tasks.bib"
 citation: "Hongyun Liu: Robust Resource Management for Time-Critical Tasks in the Cloud-Edge Continuum. PhD thesis, University of Amsterdam."
 ---

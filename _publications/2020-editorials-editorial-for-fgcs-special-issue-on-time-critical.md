@@ -14,6 +14,7 @@ links:
     url: "https://zenodo.org/record/4065157"
   - label: "Content"
     url: "https://www.sciencedirect.com/journal/future-generation-computer-systems/special-issue/10G3TX1CF4J"
+bibtexurl: "/files/bibtex/2020-editorials-editorial-for-fgcs-special-issue-on-time-critical.bib"
 citation: "<b>Zhao, Z.</b>, Taylor, I., Prodan, R.: Editorial for FGCS Special issue on \"Time-critical Applications on Software-defined Infrastructures\". Future Generation Computer Systems. 112, 1170–1171 (2020)."
 ---
 

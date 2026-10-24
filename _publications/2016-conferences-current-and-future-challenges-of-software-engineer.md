@@ -9,5 +9,6 @@ year: 2016
 authors: "Casale, G., Chesta, C., Deussen, P., Di Nitto, E., Gouvas, P., Koussouris, S., Stankovski, V., Symeonidis, A., Vlassiou, V., Zafeiropoulos, A., <b>Zhao, Z.</b>"
 venue_full: "Procedia Computer Science. 97, 34–42"
 paperurl: "https://doi.org/10.1016/j.procs.2016.08.278"
+bibtexurl: "/files/bibtex/2016-conferences-current-and-future-challenges-of-software-engineer.bib"
 citation: "Casale, G., Chesta, C., Deussen, P., Di Nitto, E., Gouvas, P., Koussouris, S., Stankovski, V., Symeonidis, A., Vlassiou, V., Zafeiropoulos, A., <b>Zhao, Z.</b>: Current and Future Challenges of Software Engineering for Services and Applications. Procedia Computer Science. 97, 34–42 (2016)."
 ---

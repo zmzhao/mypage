@@ -9,5 +9,6 @@ year: 2011
 authors: "<b>Zhao, Z.</b>, Grosso, P., van der Ham, J., Koning, R., de Laat, C."
 venue_full: "MGS. 7, 187–202"
 paperurl: "https://doi.org/10.3233/MGS-2011-0180"
+bibtexurl: "/files/bibtex/2011-journals-an-agent-based-network-resource-planner-for-workfl.bib"
 citation: "<b>Zhao, Z.</b>, Grosso, P., van der Ham, J., Koning, R., de Laat, C.: An agent-based network resource planner for workflow applications. MGS. 7, 187–202 (2011)."
 ---

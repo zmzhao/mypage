@@ -9,5 +9,6 @@ year: 2024
 authors: "Petzold, A., Bundke, U., Hienola, A., Laj, P., Lund Myhre, C., Vermeulen, A., Adamaki, A., Kutsch, W., Thouret, V., Boulanger, D., Fiebig, M., Stocker, M., <b>Zhao, Z.</b>, Asmi, A."
 venue_full: "Atmos. Chem. Phys. 24, 5369–5388"
 paperurl: "https://doi.org/10.5194/acp-24-5369-2024"
+bibtexurl: "/files/bibtex/2024-journals-opinion-new-directions-in-atmospheric-research-off.bib"
 citation: "Petzold, A., Bundke, U., Hienola, A., Laj, P., Lund Myhre, C., Vermeulen, A., Adamaki, A., Kutsch, W., Thouret, V., Boulanger, D., Fiebig, M., Stocker, M., <b>Zhao, Z.</b>, Asmi, A.: Opinion: New directions in atmospheric research offered by research infrastructures combined with open and data-intensive science. Atmos. Chem. Phys. 24, 5369–5388 (2024)."
 ---

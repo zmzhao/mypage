@@ -9,5 +9,6 @@ year: 2002
 authors: "<b>Zhao, Z.</b>, Belleman, R.G., van Albada, G.D., Sloot, P.M.A."
 venue_full: "Sloot, P.M.A., et al. (eds.) Computational Science — ICCS 2002. pp. 693–703. Springer, Berlin, Heidelberg"
 paperurl: "https://doi.org/10.1007/3-540-46043-8_70"
+bibtexurl: "/files/bibtex/2002-conferences-ag-ive-an-agent-based-solution-to-constructing-int.bib"
 citation: "<b>Zhao, Z.</b>, Belleman, R.G., van Albada, G.D., Sloot, P.M.A.: AG-IVE: An Agent Based Solution to Constructing Interactive Simulation Systems. Sloot, P.M.A., et al. (eds.) Computational Science — ICCS 2002. pp. 693–703. Springer, Berlin, Heidelberg (2002)."
 ---

@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1109/COMPSAC57700.2023.00121"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/8351528"
+bibtexurl: "/files/bibtex/2023-conferences-towards-a-service-based-adaptable-data-layer-for-c.bib"
 citation: "Wang, Y., Janse, N., Bianchi, R., Koulouzis, S., <b>Zhao, Z.</b>: Towards a Service-based Adaptable Data Layer for Cloud Workflows. 2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC). pp. 904–911. IEEE, Torino, Italy (2023)."
 ---
 

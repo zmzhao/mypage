@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1109/BigData59044.2023.10386969"
 links:
   - label: "OA"
     url: "https://zenodo.org/records/10576019"
+bibtexurl: "/files/bibtex/2023-conferences-ocean-data-quality-assessment-through-outlier-dete.bib"
 citation: "Li, N., Qi, Y., Xin, R., <b>Zhao, Z.</b>: Ocean Data Quality Assessment through Outlier Detection-enhanced Active Learning. 2023 IEEE International Conference on Big Data (BigData). pp. 102–107. IEEE, Sorrento, Italy (2023)."
 ---
 

@@ -9,5 +9,6 @@ year: 2010
 authors: "Lu, S., Deelman, E., <b>Zhao, Z.</b>"
 venue_full: "International Journal of Business Process Integration and Management (pp. 1–2). Inderscience Enterprises Ltd"
 paperurl: "http://www.inderscience.com/editorials/f104611281137529.pdf"
+bibtexurl: "/files/bibtex/2010-editorials-scientific-workflows-special-issue.bib"
 citation: "Lu, S., Deelman, E., <b>Zhao, Z.</b>: Scientific workflows special issue. International Journal of Business Process Integration and Management (pp. 1–2). Inderscience Enterprises Ltd. (2010)."
 ---

@@ -9,5 +9,6 @@ year: 2018
 authors: "Zhou, H., Hu, Y., Su, J., de Laat, C., <b>Zhao, Z.</b>"
 venue_full: "Luo, M., Zhang, L.-J. (eds.) Cloud Computing – CLOUD 2018. pp. 265–280. Springer, Cham"
 paperurl: "https://doi.org/10.1007/978-3-319-94295-7_18"
+bibtexurl: "/files/bibtex/2018-conferences-cloudsstorm-an-application-driven-framework-to-enh.bib"
 citation: "Zhou, H., Hu, Y., Su, J., de Laat, C., <b>Zhao, Z.</b>: CloudsStorm: An Application-Driven Framework to Enhance the Programmability and Controllability of Cloud Virtual Infrastructures. Luo, M., Zhang, L.-J. (eds.) Cloud Computing – CLOUD 2018. pp. 265–280. Springer, Cham (2018)."
 ---

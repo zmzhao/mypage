@@ -14,6 +14,7 @@ paperurl: "https://doi.org/10.1109/SmartIoT55134.2022.00043"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/7012047"
+bibtexurl: "/files/bibtex/2022-conferences-a-customizable-dapp-framework-for-user-interaction.bib"
 citation: "Ivankovic, V., Shi, Z., <b>Zhao, Z.</b>: A Customizable dApp Framework for User Interactions in Decentralized Service Marketplaces. 2022 IEEE International Conference on Smart Internet of Things (SmartIoT). pp. 224–231. IEEE, Suzhou, China (2022)."
 ---
 

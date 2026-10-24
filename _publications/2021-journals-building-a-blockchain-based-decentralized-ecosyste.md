@@ -12,6 +12,7 @@ paperurl: "https://doi.org/10.1007/s12083-021-01198-z"
 links:
   - label: "OA"
     url: "https://zenodo.org/record/5812125"
+bibtexurl: "/files/bibtex/2021-journals-building-a-blockchain-based-decentralized-ecosyste.bib"
 citation: "Zhou, H., Shi, Z., Ouyang, X., <b>Zhao, Z.</b>: Building a blockchain-based decentralized ecosystem for cloud and edge computing: an ALLSTAR approach and empirical study. Peer-to-Peer Networking and Applications (2021)."
 ---
 

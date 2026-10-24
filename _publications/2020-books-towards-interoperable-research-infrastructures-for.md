@@ -14,6 +14,7 @@ links:
     url: "https://envri.eu/envri-book/"
   - label: "Book interview"
     url: "https://envri.eu/interview-with-zhiming-zhao/"
+bibtexurl: "/files/bibtex/2020-books-towards-interoperable-research-infrastructures-for.bib"
 citation: "<b>Zhao, Z.</b>, Hellström, M. (eds.): Towards Interoperable Research Infrastructures for Environmental and Earth Sciences: A Reference Model Guided Approach for Common Challenges. Springer International Publishing, Cham (2020)."
 ---
 

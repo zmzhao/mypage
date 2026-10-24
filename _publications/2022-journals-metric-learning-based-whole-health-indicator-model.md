@@ -9,5 +9,6 @@ year: 2022
 authors: "Xiao, H., Li, P., Zeng, H., Liang, T., Jiang, W., <b>Zhao, Z.</b>"
 venue_full: "Int J of Intelligent Sys. int.23008"
 paperurl: "https://doi.org/10.1002/int.23008"
+bibtexurl: "/files/bibtex/2022-journals-metric-learning-based-whole-health-indicator-model.bib"
 citation: "Xiao, H., Li, P., Zeng, H., Liang, T., Jiang, W., <b>Zhao, Z.</b>: Metric learning-based whole health indicator model for industrial robots. Int J of Intelligent Sys. int.23008 (2022)."
 ---

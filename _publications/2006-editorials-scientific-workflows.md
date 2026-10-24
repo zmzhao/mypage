@@ -9,5 +9,6 @@ year: 2006
 authors: "Belloum, A., Deelman, E., <b>Zhao, Z.</b>"
 venue_full: "Scientific Programming, 14(3-4), 171–171"
 paperurl: "http://content.iospress.com/articles/scientific-programming/spr00203"
+bibtexurl: "/files/bibtex/2006-editorials-scientific-workflows.bib"
 citation: "Belloum, A., Deelman, E., <b>Zhao, Z.</b>: Scientific workflows. Scientific Programming, 14(3-4), 171–171 (2006)."
 ---
