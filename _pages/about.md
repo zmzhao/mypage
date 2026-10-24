@@ -36,7 +36,7 @@ We are looking for:
 
 Interested candidates are welcome to contact me by email.
 
-<p style="margin-top:2em">
-  <a href="https://mns-research.nl/"><img src="{{ base_path }}/images/image012.png" alt="Multiscale Networked Systems" style="height:60px;margin-right:24px"></a>
-  <a href="https://www.uva.nl/"><img src="{{ base_path }}/images/image001.jpg" alt="University of Amsterdam" style="height:30px"></a>
-</p>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 32px;margin-top:2em">
+  <a href="https://mns-research.nl/"><img src="{{ base_path }}/images/image012.png" alt="Multiscale Networked Systems" style="height:60px;width:auto"></a>
+  <a href="https://www.uva.nl/"><img src="{{ base_path }}/images/image001.jpg" alt="University of Amsterdam" style="height:60px;width:auto"></a>
+</div>
