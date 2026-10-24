@@ -7,9 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign cats = "journals:J:Journal,conferences:C:Conference,chapters:BC:Book chapter,books:B:Book,editorials:E:Editorial,abstracts:A:Abstract,reports:R:Report,theses:T:PhD thesis,chinese:CN:Chinese" | split: "," %}
+{% assign cats = "journals:J:Journal:Journal Articles,chapters:BC:Book chapter:Book Chapters,conferences:C:Conference:Conference and Workshop Papers,abstracts:P:Poster / abstract:Posters and Abstracts,books:B:Book:Edited Book,editorials:E:Editorial:Editorials (Special Issues and Proceedings),reports:R:Report:Technical Reports and Newsletters,theses:T:PhD thesis:PhD Theses,chinese:CN:Chinese:In Chinese" | split: "," %}
 {% assign pubs = site.publications | sort: "date" | reverse %}
-{% assign by_year = pubs | group_by: "year" %}
+{% assign by_year = pubs | group_by: "year" | sort: "name" | reverse %}
 
 <style>
   .pub-intro { margin-bottom: 1.2em; }
@@ -22,8 +22,13 @@ author_profile: true
   .pub-filter button.on { background: #555; border-color: #555; color: #fff; }
   .pub-filter select { font: inherit; padding: .22em .4em; border: 1px solid #c9c9c9; border-radius: 4px; background: #fff; color: #444; }
   .pub-filter .count { margin-left: auto; font-style: italic; color: #777; }
-  .pub-year { text-align: right; font-size: 2.6em; font-weight: 300; color: #d2d2d2; line-height: 1;
-    border-top: 1px solid #e6e6e6; padding-top: .35em; margin: 1.2em 0 .3em; }
+  .pub-section { margin-top: 2.2em; }
+  .pub-section > h2 { font-size: 1.15em; font-weight: 700; color: #333; border-bottom: 2px solid #555;
+    padding-bottom: .25em; margin: 0 0 .2em; display: flex; justify-content: space-between; align-items: baseline; }
+  .pub-section > h2 .n { font-size: .75em; font-weight: 400; font-style: italic; color: #888; }
+  .pub-year { text-align: right; font-size: 1.9em; font-weight: 300; color: #d2d2d2; line-height: 1;
+    border-top: 1px solid #e6e6e6; padding-top: .3em; margin: .9em 0 .3em; }
+  .pub-section > h2 + .pub-group .pub-year { border-top: 0; margin-top: .3em; }
   .pub { display: flex; gap: .8em; margin: 0 0 1.4em; }
   .pub-badge { flex: 0 0 auto; min-width: 1.9em; height: 1.6em; line-height: 1.6em; text-align: center;
     font-size: .68em; font-weight: 700; color: #555; border: 1px solid #9a9a9a; border-radius: 3px; margin-top: .25em; }
@@ -60,29 +65,36 @@ author_profile: true
   <span class="count" id="pub-count">{{ pubs.size }} papers</span>
 </div>
 
-{% for g in by_year %}
-<section class="pub-group" data-year="{{ g.name }}">
-  <div class="pub-year">{{ g.name }}</div>
-  {% for post in g.items %}
-    {% assign badge = "" %}
-    {% for c in cats %}{% assign p = c | split: ":" %}{% if p[0] == post.category %}{% assign badge = p[1] %}{% assign tname = p[2] %}{% endif %}{% endfor %}
-  <div class="pub" data-type="{{ post.category }}">
-    <span class="pub-badge {{ post.category }}" title="{{ tname }}">{{ badge }}</span>
-    <div class="pub-body">
-      <div class="pub-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></div>
-      <div class="pub-authors">{{ post.authors }}</div>
-      {% if post.award %}<div class="pub-award">&#9733; {{ post.award }}</div>{% endif %}
-      <div class="pub-venue">{{ post.venue_full }}{% if post.venue_full != "" %}, {% endif %}{{ post.year }}</div>
-      <div class="pub-links">
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">{% if post.paperurl contains "doi" %}DOI{% elsif post.paperurl contains ".pdf" %}PDF{% else %}Link{% endif %}</a>{% endif %}
-        {% for l in post.links %}<a href="{{ l.url }}">{% if l.label == "OA" %}Open access{% else %}{{ l.label }}{% endif %}</a>{% endfor %}
-        <button type="button" class="pub-cite-btn">Cite</button>
+{% for c in cats %}{% assign p = c | split: ":" %}
+{% assign items = pubs | where: "category", p[0] %}
+{% if items.size > 0 %}
+<section class="pub-section" data-type="{{ p[0] }}" id="{{ p[0] }}">
+  <h2>{{ p[3] }} <span class="n">{{ items.size }}</span></h2>
+  {% assign groups = items | group_by: "year" %}
+  {% for g in groups %}
+  <div class="pub-group" data-year="{{ g.name }}">
+    <div class="pub-year">{{ g.name }}</div>
+    {% for post in g.items %}
+    <div class="pub">
+      <span class="pub-badge {{ post.category }}" title="{{ p[2] }}">{{ p[1] }}</span>
+      <div class="pub-body">
+        <div class="pub-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></div>
+        <div class="pub-authors">{{ post.authors }}</div>
+        {% if post.award %}<div class="pub-award">&#9733; {{ post.award }}</div>{% endif %}
+        <div class="pub-venue">{{ post.venue_full }}{% if post.venue_full != "" %}, {% endif %}{{ post.year }}</div>
+        <div class="pub-links">
+          {% if post.paperurl %}<a href="{{ post.paperurl }}">{% if post.paperurl contains "doi" %}DOI{% elsif post.paperurl contains ".pdf" %}PDF{% else %}Link{% endif %}</a>{% endif %}
+          {% for l in post.links %}<a href="{{ l.url }}">{% if l.label == "OA" %}Open access{% else %}{{ l.label }}{% endif %}</a>{% endfor %}
+          <button type="button" class="pub-cite-btn">Cite</button>
+        </div>
+        <div class="pub-cite">{{ post.citation }}</div>
       </div>
-      <div class="pub-cite">{{ post.citation }}</div>
     </div>
+    {% endfor %}
   </div>
   {% endfor %}
 </section>
+{% endif %}
 {% endfor %}
 
 <script>
@@ -93,14 +105,14 @@ author_profile: true
   var count = document.getElementById("pub-count");
   function apply() {
     var shown = 0;
-    document.querySelectorAll(".pub-group").forEach(function (g) {
-      var yOk = year === "all" || g.getAttribute("data-year") === year, any = false;
-      g.querySelectorAll(".pub").forEach(function (p) {
-        var ok = yOk && (type === "all" || p.getAttribute("data-type") === type);
-        p.style.display = ok ? "" : "none";
-        if (ok) { any = true; shown++; }
+    document.querySelectorAll(".pub-section").forEach(function (sec) {
+      var tOk = type === "all" || sec.getAttribute("data-type") === type, secAny = false;
+      sec.querySelectorAll(".pub-group").forEach(function (g) {
+        var ok = tOk && (year === "all" || g.getAttribute("data-year") === year);
+        g.style.display = ok ? "" : "none";
+        if (ok) { secAny = true; shown += g.querySelectorAll(".pub").length; }
       });
-      g.style.display = any ? "" : "none";
+      sec.style.display = secAny ? "" : "none";
     });
     count.textContent = shown + (shown === 1 ? " paper" : " papers");
   }
