@@ -5,32 +5,116 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% assign cats = "journals:J:Journal,conferences:C:Conference,chapters:BC:Book chapter,books:B:Book,editorials:E:Editorial,abstracts:A:Abstract,reports:R:Report,theses:T:PhD thesis,chinese:CN:Chinese" | split: "," %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign by_year = pubs | group_by: "year" %}
+
+<style>
+  .pub-intro { margin-bottom: 1.2em; }
+  .pub-filter { display: flex; flex-wrap: wrap; align-items: center; gap: .45em .6em;
+    background: #f4f4f4; border-radius: 6px; padding: .7em .9em; font-size: .78em; margin-bottom: 1.5em; }
+  .pub-filter .lbl { font-weight: 600; letter-spacing: .06em; color: #777; margin-right: .1em; }
+  .pub-filter .lbl + .lbl, .pub-filter .yr-lbl { margin-left: .8em; }
+  .pub-filter button { font: inherit; padding: .25em .7em; border: 1px solid #c9c9c9; border-radius: 4px;
+    background: #fff; color: #444; cursor: pointer; }
+  .pub-filter button.on { background: #555; border-color: #555; color: #fff; }
+  .pub-filter select { font: inherit; padding: .22em .4em; border: 1px solid #c9c9c9; border-radius: 4px; background: #fff; color: #444; }
+  .pub-filter .count { margin-left: auto; font-style: italic; color: #777; }
+  .pub-year { text-align: right; font-size: 2.6em; font-weight: 300; color: #d2d2d2; line-height: 1;
+    border-top: 1px solid #e6e6e6; padding-top: .35em; margin: 1.2em 0 .3em; }
+  .pub { display: flex; gap: .8em; margin: 0 0 1.4em; }
+  .pub-badge { flex: 0 0 auto; min-width: 1.9em; height: 1.6em; line-height: 1.6em; text-align: center;
+    font-size: .68em; font-weight: 700; color: #555; border: 1px solid #9a9a9a; border-radius: 3px; margin-top: .25em; }
+  .pub-badge.journals { background: #555; color: #fff; border-color: #555; }
+  .pub-body { flex: 1 1 auto; min-width: 0; font-size: .82em; line-height: 1.5; }
+  .pub-title { font-weight: 700; color: #222; }
+  .pub-title a { color: inherit; text-decoration: none; }
+  .pub-title a:hover { text-decoration: underline; }
+  .pub-authors { color: #555; }
+  .pub-authors b { font-style: italic; color: #222; }
+  .pub-venue { font-style: italic; color: #555; }
+  .pub-award { display: inline-block; margin: .25em 0 .1em; padding: .05em .55em; font-size: .9em; font-weight: 600;
+    color: #444; background: #eee; border: 1px solid #c9c9c9; border-radius: 3px; }
+  .pub-links { margin-top: .35em; display: flex; flex-wrap: wrap; gap: .35em; }
+  .pub-links a, .pub-links button { font: inherit; font-size: .88em; font-weight: 600; padding: .05em .55em;
+    border: 1px solid #9a9a9a; border-radius: 3px; color: #444; background: #fff; text-decoration: none; cursor: pointer; }
+  .pub-links a:hover, .pub-links button:hover { background: #555; border-color: #555; color: #fff; }
+  .pub-cite { display: none; margin-top: .45em; padding: .5em .7em; background: #f4f4f4; border-left: 3px solid #9a9a9a; font-size: .95em; }
+  .pub-cite.open { display: block; }
+</style>
+
+<p class="pub-intro">{{ pubs.size }} publications. Full list also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+
+<div class="pub-filter" id="pub-filter">
+  <span class="lbl">TYPE</span>
+  <button type="button" class="on" data-type="all">All</button>
+  {% for c in cats %}{% assign p = c | split: ":" %}{% assign n = pubs | where: "category", p[0] | size %}{% if n > 0 %}
+  <button type="button" data-type="{{ p[0] }}">{{ p[2] }}</button>{% endif %}{% endfor %}
+  <span class="lbl yr-lbl">YEAR</span>
+  <select id="pub-year" aria-label="Year">
+    <option value="all">All years</option>
+    {% for g in by_year %}<option value="{{ g.name }}">{{ g.name }}</option>{% endfor %}
+  </select>
+  <span class="count" id="pub-count">{{ pubs.size }} papers</span>
+</div>
+
+{% for g in by_year %}
+<section class="pub-group" data-year="{{ g.name }}">
+  <div class="pub-year">{{ g.name }}</div>
+  {% for post in g.items %}
+    {% assign badge = "" %}
+    {% for c in cats %}{% assign p = c | split: ":" %}{% if p[0] == post.category %}{% assign badge = p[1] %}{% assign tname = p[2] %}{% endif %}{% endfor %}
+  <div class="pub" data-type="{{ post.category }}">
+    <span class="pub-badge {{ post.category }}" title="{{ tname }}">{{ badge }}</span>
+    <div class="pub-body">
+      <div class="pub-title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></div>
+      <div class="pub-authors">{{ post.authors }}</div>
+      {% if post.award %}<div class="pub-award">&#9733; {{ post.award }}</div>{% endif %}
+      <div class="pub-venue">{{ post.venue_full }}{% if post.venue_full != "" %}, {% endif %}{{ post.year }}</div>
+      <div class="pub-links">
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">{% if post.paperurl contains "doi" %}DOI{% elsif post.paperurl contains ".pdf" %}PDF{% else %}Link{% endif %}</a>{% endif %}
+        {% for l in post.links %}<a href="{{ l.url }}">{% if l.label == "OA" %}Open access{% else %}{{ l.label }}{% endif %}</a>{% endfor %}
+        <button type="button" class="pub-cite-btn">Cite</button>
+      </div>
+      <div class="pub-cite">{{ post.citation }}</div>
+    </div>
+  </div>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+</section>
+{% endfor %}
 
-
-
+<script>
+(function () {
+  var type = "all", year = "all";
+  var buttons = document.querySelectorAll("#pub-filter button");
+  var select = document.getElementById("pub-year");
+  var count = document.getElementById("pub-count");
+  function apply() {
+    var shown = 0;
+    document.querySelectorAll(".pub-group").forEach(function (g) {
+      var yOk = year === "all" || g.getAttribute("data-year") === year, any = false;
+      g.querySelectorAll(".pub").forEach(function (p) {
+        var ok = yOk && (type === "all" || p.getAttribute("data-type") === type);
+        p.style.display = ok ? "" : "none";
+        if (ok) { any = true; shown++; }
+      });
+      g.style.display = any ? "" : "none";
+    });
+    count.textContent = shown + (shown === 1 ? " paper" : " papers");
+  }
+  buttons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      buttons.forEach(function (x) { x.classList.remove("on"); });
+      b.classList.add("on"); type = b.getAttribute("data-type"); apply();
+    });
+  });
+  select.addEventListener("change", function () { year = select.value; apply(); });
+  document.querySelectorAll(".pub-cite-btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      b.closest(".pub-body").querySelector(".pub-cite").classList.toggle("open");
+    });
+  });
+})();
+</script>
